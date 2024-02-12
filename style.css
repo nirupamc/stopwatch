@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik Glitch Pop', system-ui;
+    font-size: 35px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #ecd1e1, #e8cce5, #e0c9eb, #d4c6f1, #c4c5f7, #b1c5f9, #9bc6f9, #83c6f6, #6ac6ec, #57c5de, #4fc3cd, #52c0b9);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+    max-height: 600px;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./assets/Berserk.gif);
+    background-size:cover;
+    background-position:center; 
+    padding: 40px 0;
+    color: #fff;
+    margin: 100px auto 0;
+    box-shadow: 0 10px 10px rgba(95, 95, 95, 0.8)
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.buttons img:nth-child(2){
+    width: 60px;
+}
